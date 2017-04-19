@@ -1,0 +1,309 @@
+body {
+	margin:auto;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	background:#fff;
+	min-width:600px;    	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:95%;
+
+	width:1000px;
+}
+a {
+	color:#000;
+}
+a:hover {
+	color:#000;
+	background:#000;
+	text-decoration:none;
+}
+
+#box a {
+	color:#000;
+}
+#box a:hover {
+	color:#FFF;
+	background:#369;
+	text-decoration:none;
+}
+h1, h2, h3 {
+	margin:.8em 5% .2em 0;
+	padding:0;
+}
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+}
+img {
+	margin:10px 0 5px;
+}
+#ads img {
+	display:block;
+	padding-top:10px;
+}
+
+/* Header styles */
+#header {
+	clear:both;
+	float:middle;
+	text-align: center;
+	width:100%;
+	color:black;
+	font-family:Helvetica;
+	
+	padding: 30px 0px 30px 0px;
+
+}
+#header {
+	border-bottom: 0px dotted #000;
+}
+#header p,
+#header h1,
+#header h2 {
+	padding:.4em 15px 0 15px;
+	margin:0;
+}
+#header ul {
+	clear:left;
+	float:left;
+	width:100%;
+	list-style:none;
+	margin:10px 0 0 0;
+	padding:0;
+}
+#header ul li {
+	display:inline;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#header ul li a {
+	display:block;
+	float:left;
+	margin:0 0 0 1px;
+	padding:3px 10px;
+	text-align:center;
+	background:#eee;
+	color:#000;
+	text-decoration:none;
+	position:relative;
+	left:15px;
+	line-height:1.3em;
+}
+#header ul li a:hover {
+	background:#369;
+	color:#fff;
+}
+#header ul li a.active,
+#header ul li a.active:hover {
+	color:#fff;
+	background:#000;
+	font-weight:bold;
+}
+#header ul li a span {
+	display:block;
+}
+/* 'widths' sub menu */
+#layoutdims {
+	clear:both;
+	background:#eee;
+	border-top:4px solid #000;
+	margin:0;
+	padding:6px 15px !important;
+	text-align:right;
+}
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+}
+.col1,
+.col2,
+.col3, 
+.box1{
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	
+	font-family:Helvetica;
+	display:inline;
+
+}
+
+.box1 img{
+	margin-left: 5%;
+	display:inline;
+
+}
+
+.homebox{
+
+	width:94%;
+	float:center;
+	position:relative;
+	padding:0% 0% 0% 0%;
+	overflow:hidden;
+	font-family:Helvetica;
+	text-align: center;
+	display:inline;
+}
+
+.homebox img{
+	display: inline;
+	float: center;
+}
+
+.homebox figcaption{
+	display:inline;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.pdbox{
+
+	width:98%;
+	float:left;
+	position:relative;
+	padding:2% 3% 3% 3%;
+	overflow:hidden;
+	font-family:Helvetica;
+	text-align: right;
+}
+.pdbox img{
+	display:inline;
+	margin-right:5%;
+}
+.contentbox b{
+	padding: 0% 3% 0% 0%;  /*top right bottom left*/
+	font-weight: bold;
+	font-size: 28px;
+}
+
+
+
+/* 2 Column (left menu) settings */
+.leftmenu {
+	background:#fff;		/* right column background colour */
+}
+.leftmenu .colleft {
+	right:75%;			/* right column width */
+	background:#fff;	/* left column background colour */
+}
+.leftmenu .col1 {
+	width:75%;			/* right column content width */
+	left:102%;			/* 100% plus left column left padding */
+	text-align: right;
+}
+.leftmenu .col2 {
+	width:25%;			/* left column content width (column width minus left and right padding) */
+	left:3%;			/* (right column left and right padding) plus (left column left padding) */
+	text-align: left;
+} 
+
+.leftmenu .box1 {
+	width:90%;			/* left column content width (column width minus left and right padding) */
+	padding:2px 2px 2px 2px;			/* (right column left and right padding) plus (left column left padding) */
+	background:#fff;
+	border-bottom:dotted;
+	border-width:1px;
+	margin:5px 5px 2px 2px;
+	padding-right:2em;
+	display: block;}
+
+
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px dotted #000;
+}
+#footer p {
+	padding:10px;
+	margin-left:10px;
+}
+
+
+/*Top Navigation */
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+	float: right;
+}
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: Helvetica;
+}
+
+
+ul.topnav li b {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 1em 1em 1em 0.5em;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: Helvetica;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+
+ul.topnav li a.active {
+    background-color: grey;
+    color: white;
+}
+
+
+
+/* Hdaa */
+.hdaabox {
+	margin: 2% 2% 2% 2%;
+	text-align: center;
+	width: 200px;
+    display: inline-block;
+}
+
+.hdaabox img {
+	display: inline-block;
+}
+
+figcaption { 
+    display: block;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+

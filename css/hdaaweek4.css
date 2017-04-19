@@ -1,0 +1,207 @@
+body {
+	margin:auto;
+	padding:0;
+	border: 0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+			    	
+	font-size:95%;
+
+	width: 1000px;
+
+
+	
+}
+
+a:link{
+	color:black;
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+a:visited {
+    color: grey;
+    font-family: Helvetica;
+    font-style: 
+	font-size: 20px;
+}
+
+
+/* Header styles */
+.header {
+	clear:both;
+	float:middle;
+	text-align: left;
+	width:100%;
+	color:#000;
+	font-family:Helvetica;
+	
+	padding: 30px 0px 30px 0px;
+
+}
+.header {
+	border-bottom: 1px dotted #000;
+}
+.header p,
+.header h1,
+.header h2 {
+	padding:.4em 15px 0 15px;
+	margin:0;
+}
+
+/* body */
+.contentbox p{
+	padding: 2% 3% 3% 3%;
+	margin:0;
+}
+
+.contentbox a{
+	padding: 0% 3% 0% 0%;  /*top right bottom left*/
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.contentbox b{
+	padding: 0% 3% 0% 0%;  /*top right bottom left*/
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.contentbox{
+
+	width:98%;
+	float:left;
+	position:relative;
+	padding:2% 3% 3% 3%;
+	overflow:hidden;
+	font-family:Helvetica;
+	text-align: right;
+	color: #000;
+
+}
+
+.contentbox img{
+	margin-right: 3%;
+	display:inline;
+}
+
+
+.contentbox2 p{
+	padding: 2% 3% 0% 3%;
+	margin:0;
+}
+
+.contentbox2 a{
+	padding: 0% 0% 0% 0%;  /*top right bottom left*/
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.contentbox2 b{
+	padding: 0% 0% 0% 0%;  /*top right bottom left*/
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.contentbox2{
+
+	width:98%;
+	float:center;
+	position:relative;
+	padding:2% 3% 3% 3%;
+	overflow:hidden;
+	font-family:Helvetica;
+	text-align: center;
+	color: #000;
+}
+
+.contentbox2 img{
+	margin-right: 3%;
+	margin-left: 3%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	display:inline;
+}
+
+
+.backbox{
+	float: center;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 15px;
+}
+
+.textbox{
+
+	width:60%;
+	float:left;
+	position:relative;
+	padding:2% 3% 3% 3%;
+	overflow:hidden;
+	font-family:Helvetica;
+	text-align: left;
+	color: #000;
+
+}
+
+
+
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px dotted #000;
+	color: black;
+}
+#footer p {
+	padding:10px;
+	margin-left:10px;
+}
+
+
+/*Top Navigation */
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+	float: right;
+}
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: Helvetica;
+}
+
+
+ul.topnav li b {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 1em 1em 1em 0.5em;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: Helvetica;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
